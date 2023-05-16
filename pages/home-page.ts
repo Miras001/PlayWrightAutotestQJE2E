@@ -11,7 +11,7 @@ export class HomePage {
 
     //Открыть главную страницу
     async open() {
-        await this.page.goto('https://dev.sergek.kz/login');
+        await this.page.goto('https://qorgaujol.sergek.kz/');
     }
 
 }

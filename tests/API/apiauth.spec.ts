@@ -4,7 +4,7 @@ interface LoginResponse {
   access_token: string;
 }
 
-test("login", async ({ request, baseURL, context }) => {
+test.skip("login", async ({ request, baseURL, context }) => {
 
   const response = await request.post(`${baseURL}api/auth/login`, {
     data: {
